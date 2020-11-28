@@ -1,0 +1,14 @@
+download the latest python 3 (currently python 3.7.8 as of june 27, 2020) from here:
+https://www.python.org/downloads/
+in a powershell prompt, run:
+```
+python -m pip install requests
+python -m pip install youtube_dl
+```
+you will have to update youtube_dl from time to time (but not right after installation). to do this, run:
+```
+python -m pip install --upgrade youtube_dl
+```
+to run this program, ``cd`` to the directory of this file and run ``python __main__.py``
+to close it, hit ctrl-c a few times until it brings you back to the powershell prompt.
+when the program is closed, you can add lists of channels in waifus.txt, one per line.
